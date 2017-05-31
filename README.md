@@ -29,7 +29,8 @@ vagrant ssh
 ```
 /spark/sbin/start-all.sh
 ```
-** You may need to enter the user password for "vagrant", which is default to "vagrant".
+
+-- You may need to enter the user password for "vagrant", which is default to "vagrant".
 
 * Verify Spark is started and healthy
 Go to local browser and browse to `http://localhost:8081`. The Spark web UI should show up.
