@@ -34,3 +34,11 @@ vagrant ssh
 
 * Verify Spark is started and healthy
 Go to local browser and browse to `http://localhost:8081`. The Spark web UI should show up.
+
+* See "netflow" folder (http://beeyeas.blogspot.com/2017/06/network-traffic-analysis.html)
+contains
+nfsen-1.3.8.tar.gz - Installer downloaded from https://github.com/sown/nfsen
+
+nfsen-bin.tar.gz - Binary folder installed into this vagrant VM , serving netflow nfsen live simulated traffic graphs - MUST to exploded into /var/nfsen folder in any VM
+
+rrdtool-1.4.3.tar.gz - rrd tool for perl
